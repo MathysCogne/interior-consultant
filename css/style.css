@@ -23,12 +23,10 @@ body {
 .contenair {
   max-width: 92.5%;
   margin: auto;
-  height: 90vh;
 }
 @media screen and (min-width: 1100px) {
   .contenair {
     max-width: 70%;
-    min-height: 85vh;
   }
 }
 
