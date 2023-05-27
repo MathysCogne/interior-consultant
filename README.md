@@ -22,5 +22,5 @@
 
 ## Overview
 
-![screenshot](https://github.com/MathysCogne/interior-consultant/blob/master/assets/screencapture-127-0-0-1-5500-2023-05-28-01_08_05.png)
+![screenshot](https://github.com/MathysCogne/interior-consultant/blob/master/assets/screencapture-127-0-0-1-5500-2023-05-28-01_12_00.png)
 
