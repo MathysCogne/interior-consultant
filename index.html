@@ -9,6 +9,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  
+
+  <script defer src="./script.js"></script>
 
   <title>Devchallenges - Interior Consultant</title>
 </head>
@@ -16,16 +20,50 @@
 <body>
 <div class="contenair">
   <header>
-
+    <h1>This Interior</h1>
+    <nav class="desktop-nav">
+      <a href="#" class="link-select">Home</a>
+      <a href="#">Collection</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    <a href="#" id="burger-button">
+      <span class="material-symbols-outlined">menu</span>
+    </a>
+    <div id="burger-menu" style="display: none;">
+      <button id="close-button">&times;</button>
+      <a href="#" class="link-select">Home</a>
+      <a href="#">Collection</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
   </header>  
 
   <main>
     <section>
+      <div class="cont-text">
+        <h2>Modern interior</h2>
+        <p>A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
+        <div>
+          <a href="#">Read more</a>
+          <span class="material-symbols-outlined">arrow_right_alt</span>
+        </div>
+      </div>
 
-    </section>
-    
-    <section>
-      
+
+      <div class="cont-img">
+        <img class="img-hero" src="./assets/photo1.png" alt="Photo of the interior of an apartment">
+        <div class="card">
+          <div class="card__info">
+            <img src="./assets/photo2.png" alt="Photo of Aliza Webber">
+            <div class="card__info-txt">
+              <h3>Aliza Webber</h3>
+              <p>Interior designer</p>
+            </div>
+          </div>
+          <h4>Designed in 2020 by Aliza Webber</h3>
+        </div>
+      </div>
     </section>
   </main>
 </div>
